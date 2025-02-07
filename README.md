@@ -1,11 +1,12 @@
 # 功能说明
-![image](https://github.com/user-attachments/assets/cde05bc9-8ee2-4624-9500-cafa19d83fd5)
-这个程序是一个图像生成器，主要用于生成由范围内（预设和自定义）随机选择的颜色填充的64个小方块组成的512*512px的图片。具体功能如下：
+- 这个程序是一个图像生成器，主要用于生成由范围内（预设和自定义）随机选择的颜色填充的64个小方块组成的512*512px的图片。
+  
+ ![image](https://github.com/user-attachments/assets/3ccf6d36-52e0-42ad-829a-931908c2b9d8)
 
+- 具体功能如下：
 ## 1. 预设颜色集合
 - 程序提供了多个预设的颜色集合，如“中国500色/CN500-Color”，“马卡龙/Macaron”，“莫兰迪/Morandi”，“孟菲斯/Memphis”，“蒙德里安/Mondrian”，“灰度/Grayscale”等。
 - 每个预设颜色集合包含一组RGB颜色值。
-![image](https://github.com/user-attachments/assets/3ccf6d36-52e0-42ad-829a-931908c2b9d8)
 
 ## 2. 自定义颜色集合
 - 用户可以输入自定义的颜色集合，这些颜色集合需要符合Python列表的格式，例如 `[(255, 0, 0), (0, 255, 0), (0, 0, 255)]`。
